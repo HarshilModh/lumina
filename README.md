@@ -6,6 +6,7 @@ Lumina is a next-generation cloud storage platform designed specifically for vis
 
 <img width="1512" height="907" alt="Screenshot 2025-11-20 at 8 02 19 PM" src="https://github.com/user-attachments/assets/2fc117c1-1219-4b17-b4cd-6a57caba3a65" />
 
+<img width="1512" height="866" alt="image" src="https://github.com/user-attachments/assets/01610c7e-de8c-428c-a13c-689f2e9a7a5a" />
 
 ## 🌟 Features
 
