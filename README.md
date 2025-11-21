@@ -4,7 +4,7 @@
 
 Lumina is a next-generation cloud storage platform designed specifically for visual assets. It combines beautiful design with powerful functionality to provide a secure, lightning-fast home for your images.
 
-![Lumina Preview](https://placehold.co/1200x600/6366f1/ffffff?text=Lumina+Cloud+Storage)
+![Lumina Dashboard](Screenshot 2025-11-20 at 8.02.19 PM.jpg)
 
 ## 🌟 Features
 
