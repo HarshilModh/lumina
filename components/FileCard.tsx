@@ -33,8 +33,11 @@ export default function FileCard({
 
   return (
     <div
+      role="button"
+      tabIndex={0}
       className="group relative glass p-4 rounded-2xl border border-slate-200 hover:border-indigo-500/30 transition-colors duration-200 cursor-pointer shadow-sm hover:shadow-md"
       onClick={() => onClick(file)}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(file); } }}
     >
       {/* Selection/Hover Glow */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/0 to-purple-500/0 group-hover:from-indigo-500/5 group-hover:to-purple-500/5 rounded-2xl transition-colors duration-200" />
@@ -58,7 +61,7 @@ export default function FileCard({
             )}
           </div>
 
-          <div onClick={(e) => e.stopPropagation()}>
+          <div role="button" tabIndex={-1} onClick={(e) => e.stopPropagation()} onKeyDown={() => {}}>
             <Dropdown>
               <DropdownTrigger>
                 <Button

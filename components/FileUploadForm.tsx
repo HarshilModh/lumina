@@ -347,7 +347,6 @@ export default function FileUploadForm({
                 placeholder="My Images"
                 value={folderName}
                 onChange={(e) => setFolderName(e.target.value)}
-                autoFocus
               />
             </div>
           </ModalBody>

@@ -61,7 +61,7 @@ export default function DashboardContent({
             </span>
           </h2>
           <p className="text-slate-500 mt-2 text-lg">
-            Here's what's happening with your cloud today.
+            Here&apos;s what&apos;s happening with your cloud today.
           </p>
         </div>
         

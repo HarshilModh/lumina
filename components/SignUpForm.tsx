@@ -114,7 +114,7 @@ export default function SignUpForm() {
             Verify Your Email
           </h1>
           <p className="text-default-500 text-center">
-            We've sent a verification code to your email
+            We&apos;ve sent a verification code to your email
           </p>
         </CardHeader>
 
@@ -143,7 +143,6 @@ export default function SignUpForm() {
                 value={verificationCode}
                 onChange={(e) => setVerificationCode(e.target.value)}
                 className="w-full"
-                autoFocus
               />
             </div>
 
@@ -159,7 +158,7 @@ export default function SignUpForm() {
 
           <div className="mt-6 text-center">
             <p className="text-sm text-default-500">
-              Didn't receive a code?{" "}
+              Didn&apos;t receive a code?{" "}
               <button
                 onClick={async () => {
                   if (signUp) {
